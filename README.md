@@ -6,7 +6,7 @@ This challenging property is beyond the scope of benchmarks for which `CheMeleon
 ## Running
 
 The only dependency for this quick demo is `chemprop>=2.2.2`, which you can install with `pip`, `conda`, or Docker.
-You do specifically need version 2.2.2 and not any earlier version, since this demo relies on a new feature: the ability to pass a custom training, validation, and testing set via the command line interface (`chemprop train --input-data train.csv val.csv test.csv ...`).
+You do specifically need version 2.2.2 and not any earlier version, since this demo relies on a new feature: the ability to pass a custom training, validation, and testing set via the command line interface (`chemprop train --data-path train.csv val.csv test.csv ...`).
 This won't work on earlier versions of Chemprop, but could be achieved using the Python API.
 
 To run `CheMeleon`, simply run `. train.sh`.
